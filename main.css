@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: url("img/589_4029-oboi-detskie-igrushki-ab.jpg");
+    background-size: cover;
+}
+
+header > h1 {
+    color: red;
+    /*text-decoration: underline;*/
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Bookman Old Style", sans-serif;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+aside {
+    margin-left: 20px;
+}
+
+aside img {
+    border-radius: 20px;
+}
+
+div img {
+    width: 200px;
+}
+
+aside, main {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Bookman Old Style", sans-serif;
+}
+
+
+main {
+    width: calc(100% - 365px);
+    margin-left: 20px;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.93) 55%, rgba(245, 12, 229, 0.88) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f50ce5', GradientType=1);
+}
+
+div p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    width: calc(100% - 270px);
+}
+
+div:hover {
+    background: rgba(255,255,255,1);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(235,39,21,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eb2715', GradientType=1 );
+}
+
+main > div {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0;
+}
